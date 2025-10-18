@@ -14,7 +14,7 @@ Using the River and Optuna packages to provide an automatically optimized ARIMA-
 ## Installation
 
 ```bash
-pip install numpy pandas optuna river holidays matplotlib
+pip install autosarimax
 ````
 
 ## Usage
@@ -23,7 +23,7 @@ pip install numpy pandas optuna river holidays matplotlib
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from auto_snarimax import AutoSNARIMAX, add_holiday_feature
+from autosarimax import AutoSNARIMAX, add_holiday_feature
 
 # 1️⃣ Create example DataFrame
 dates = pd.date_range(start='2025-01-01', periods=30, freq='D')
