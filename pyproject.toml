@@ -1,6 +1,6 @@
 [project]
 name = "autosarimax"
-version = "0.1.0"
+version = "0.1.1"
 description = "Using the River and Optuna packages to provide an automatically optimized ARIMA-derived model with the possibility of online updates."
 authors = [
     {name = "danttis",email = "juniordante01@gmail.com"}
